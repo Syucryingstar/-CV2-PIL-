@@ -1,3 +1,4 @@
 # -CV2-PIL-
 face_recognition中不支持中文字体的显示，可以借助PIL或freetype来支持
-PIL_test.py中包含了两种向视频流中添加中文的方式，一种是PIL，另一种是freetype
+PIL_test.py中使用的是PIL库向视频流中添加文字
+Freetype_text使用了put_chinese_text类，代替cv2的字体引擎
